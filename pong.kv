@@ -1,0 +1,11 @@
+#:kivy 1.0.9
+
+<calculate>:
+
+    alchool: box_alchool
+
+    TextInput:
+        id: box_alchool
+        pos: root.pos
+        text: root.text
+        on_focus: root.check_focus_and_view(self)
